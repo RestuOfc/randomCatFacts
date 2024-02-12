@@ -1,0 +1,14 @@
+# Игнорируем файл с именем example.txt
+proxy.txt
+private_keys_encoded.txt
+private_keys.txt
+wallets.txt
+
+# Игнорируем все файлы с расширением .py
+*.py
+
+# Игнорируем все файлы в директории logs/
+logs/
+
+# Игронируем все файлы во всех поддиректориях директории temp/
+temp/**
